@@ -1,0 +1,112 @@
+*{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*-------------------------------------------------------*/
+/*--------------------Navigations Menü-------------------------------*/
+
+.nav-bar{
+  background-color: rgb(45, 206, 212); /*Hell Türkis*/
+  height: 50px;
+  padding-bottom: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index:10;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index:10;
+}
+
+nav{
+  float: left;
+  z-index:10;
+}
+
+li{
+  display: inline;
+  margin: 15px;
+  z-index:10;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  border-style: solid;
+  text-align: center;
+  padding: 25px 10px 25px 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  left: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+  z-index:10;
+}
+
+nav a:hover{
+  color: orange;
+  z-index:10;
+}
+
+nav a:active{
+  background-color: rgb(40, 137, 141); /*Dunkel Türkis*/
+  z-index:10;
+}
+
+#nav-logo{
+  width: 120px;
+  float: left;
+  filter: contrast(150%);
+  -webkit-filter: contrast(150%);
+  z-index:10;
+}
+
+#nav-logo:hover{
+  filter: contrast(100%);
+  -webkit-filter: contrast(100%);
+}
+/*--------------------------------------------------------------*/
+/*-----------------------Foot-----------------------------------*/
+
+#foot-kasten{
+  background: white;
+  margin-top: 130px;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-color: rgb(40, 137, 141); /*Dunkel Türkis*/
+  height: 250px;
+}
+
+#foot-spigotapi{
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 0 black, 0 2px black;
+  margin-top: 70px;
+}
+
+#foot-copyright{
+  color: orange;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 0 black, 0 2px black;
+}
+
+#foot-impressum{
+  color: rgb(45, 206, 212); /*Hell Türkis*/
+  background-attachment: fixed;
+  font-size: 20px;
+  text-shadow: 1px 0 black, 0 1px black;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Zusammenfassung der Spigot-API">
+  <meta name="keywords" content="API, Spigot, Spigot-API">
+  <meta name="author" content="Justin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="30">
+  <link rel="stylesheet" href="CSS/Allgemein.css" type="text/css"/>
+  <link rel="stylesheet" href="CSS/Spigot-API.css" type="text/css"/>
+  <title>www.Spigot-API.de/Spigot-API</title>
+<body>
+<nav>
+  <!-- Menü -->
+  <div class="nav-bar">
+    <a href="index.html"><img id="nav-logo" src="Bilder/Spigot-Logo.png"></a>
+    <ul>
+      <li><a class="link" id="nav-startseite" href="index.html">Startseite</a></li>
+      <li><a class="link" id="nav-spigotapi" href="Spigot-API.html">Spigot-API</a></li>
+      <li><a class="link" id="nav-andereprojekte" href="Andere Projekte.html">Andere Projekte</a></li>
+      <li><a class="link" id="nav-impressum" href="Impressum.html">Impressum</a></li>
+    </ul>
+  </nav>
+  </div>
+
+  <!-- Main -->
+<main>
+    <h1 id="main-spigotapi">Spigot-API</h1>
+    <h1> Allgemein:</h1>
+    <p>Die Spigot API ist die Grundlage für das Programmieren in Minecraft. Die Vorraussetzung dabei ist die Programmiersprache Java.</p>
+    <br><br>
+    <h1> Einfacher Command:</h1>
+    <p>Diese Methode wird ausgeführt, wenn ein Spieler einen bestimmten Befehl im Spiel eingibt.</p>
+    <div class="code">
+      <p class="codetext">public class [COMMANDNAME] implements CommandExecutor {<br><br>
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {<br><br>
+        return false;<br><br>
+  }<br>
+}
+    </div>
+    <p><b>Commandsender:</b> Ist der Sender, des Befehls. Das kann ein Spieler, aber auch die Konsole sein.</p>
+    <p><b>Commad:</b> Das ist der Befehl selbst.</p>
+    <p><b>String:</b> Ist das erste Wort des Befehls.</p>
+    <p><b>String[]:</b> sind die Wörter nach dem ersten Wort.</p>
+
+</main>
+
+<!-- Foot -->
+<footer>
+  <div id="foot-kasten">
+    <p id="foot-spigotapi">Spigot-API.de</p>
+    <p id="foot-copyright"><br>© 2020 Justin</p>
+    <br>
+    <a id="foot-impressum" href="Impressum.html">Impressum</a>
+  </div>
+</footer>
+
+</body>
+</html>

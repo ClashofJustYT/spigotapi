@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/*-------------------------------------------------------*/
+/*---------------------Navitations Menü-------------------------------*/
+
+#nav-andereprojekte{
+  background-color: rgb(40, 137, 141); /*Dunkel Türkis*/;
+}
+/*-------------------------------------------------------*/
+/*---------------------Passwort-Benutzername System-------------*/
+.kasten{
+  margin-top: 20px;
+  padding: 30px;
+  background: gray;
+  text-align: center;
+}
+#benutzername, #passwort{
+  text-align: center;
+  padding: 10px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border-radius: 10px;
+  border-color: black;
+  background: rgb(45, 206, 212); /*Hell Türkis*/
+}
+#passwort{
+  margin-top: 1px;
+}
+#Anmeldung-text{
+  margin-top: 150px;
+  text-align: center;
+}
+#benutzername-text{
+  margin-right: 270px;
+}
+#password-text{
+  margin-right: 320px;
+  margin-top: 10px;
+}
+#login{
+  padding: 10px 20px 10px 20px;
+  margin-left: 330px;
+  background-color: rgb(45, 206, 212); /*Hell Türkis*/
+  border-color: black;
+}
+#login:hover{
+  background-color: rgb(40, 137, 141); /*Dunkel Türkis*/;
+}
+#foot-kasten{
+  margin-top: 500px;
+}
